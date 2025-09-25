@@ -32,17 +32,6 @@ public partial class PluginUI
         return compensationModeLabels;
     }
 
-    private static string[] GetLyricsChatTargetLabels()
-    {
-        string[] lyricsChatTargetLabels = [
-                Language.chat_target_option_current,
-                Language.chat_target_option_say,
-                Language.chat_target_option_party
-            ];
-
-        return lyricsChatTargetLabels;
-    }
-
     private void DrawEnsembleSettings()
     {
         ImGuiGroupPanel.BeginGroupPanel(Language.setting_group_label_ensemble_settings);
@@ -197,7 +186,7 @@ public partial class PluginUI
             ImGui.Spacing();
 
             ImGui.TextUnformatted(Language.select_chat_to_send_lyrics);
-            if (ImGuiUtil.EnumCombo($"##comboLyricsChatTarget", ref MidiBard.config.LyricsChatTarget, labelsOverride: GetLyricsChatTargetLabels()))
+            if (ImGuiUtil.EnumCombo($"##comboLyricsChatTarget", ref MidiBard.config.LyricsChatTarget, labelsOverride: GetChatTargetLabels()))
             {
                 IPCHandles.SyncAllSettings();
             }

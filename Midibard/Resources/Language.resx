@@ -653,6 +653,54 @@ Only recommended while using Midi keyboard.</value>
     <data name="chat_target_option_party" xml:space="preserve">
         <value>Party</value>
     </data>
+    <data name="chat_target_option_ls1" xml:space="preserve">
+        <value>Linkshell 1</value>
+    </data>
+    <data name="chat_target_option_ls2" xml:space="preserve">
+        <value>Linkshell 2</value>
+    </data>
+    <data name="chat_target_option_ls3" xml:space="preserve">
+        <value>Linkshell 3</value>
+    </data>
+    <data name="chat_target_option_ls4" xml:space="preserve">
+        <value>Linkshell 4</value>
+    </data>
+    <data name="chat_target_option_ls5" xml:space="preserve">
+        <value>Linkshell 5</value>
+    </data>
+    <data name="chat_target_option_ls6" xml:space="preserve">
+        <value>Linkshell 6</value>
+    </data>
+    <data name="chat_target_option_ls7" xml:space="preserve">
+        <value>Linkshell 7</value>
+    </data>
+    <data name="chat_target_option_ls8" xml:space="preserve">
+        <value>Linkshell 8</value>
+    </data>
+    <data name="chat_target_option_cwl1" xml:space="preserve">
+        <value>Cross Linkshell 1</value>
+    </data>
+    <data name="chat_target_option_cwl2" xml:space="preserve">
+        <value>Cross Linkshell 2</value>
+    </data>
+    <data name="chat_target_option_cwl3" xml:space="preserve">
+        <value>Cross Linkshell 3</value>
+    </data>
+    <data name="chat_target_option_cwl4" xml:space="preserve">
+        <value>Cross Linkshell 4</value>
+    </data>
+    <data name="chat_target_option_cwl5" xml:space="preserve">
+        <value>Cross Linkshell 5</value>
+    </data>
+    <data name="chat_target_option_cwl6" xml:space="preserve">
+        <value>Cross Linkshell 6</value>
+    </data>
+    <data name="chat_target_option_cwl7" xml:space="preserve">
+        <value>Cross Linkshell 7</value>
+    </data>
+    <data name="chat_target_option_cwl8" xml:space="preserve">
+        <value>Cross Linkshell 8</value>
+    </data>
     <data name="theme_default" xml:space="preserve">
         <value>Default</value>
     </data>

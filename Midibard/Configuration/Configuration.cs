@@ -156,6 +156,22 @@ public class Configuration : IPluginConfiguration
             ChatType.Current => string.Empty,
             ChatType.Say => "/s ",
             ChatType.Party => "/p ",
+            ChatType.Linkshell1 => "/l1 ",
+            ChatType.Linkshell2 => "/l2 ",
+            ChatType.Linkshell3 => "/l3 ",
+            ChatType.Linkshell4 => "/l4 ",
+            ChatType.Linkshell5 => "/l5 ",
+            ChatType.Linkshell6 => "/l6 ",
+            ChatType.Linkshell7 => "/l7 ",
+            ChatType.Linkshell8 => "/l8 ",
+            ChatType.CrossLinkshell1 => "/cwl1 ",
+            ChatType.CrossLinkshell2 => "/cwl2 ",
+            ChatType.CrossLinkshell3 => "/cwl3 ",
+            ChatType.CrossLinkshell4 => "/cwl4 ",
+            ChatType.CrossLinkshell5 => "/cwl5 ",
+            ChatType.CrossLinkshell6 => "/cwl6 ",
+            ChatType.CrossLinkshell7 => "/cwl7 ",
+            ChatType.CrossLinkshell8 => "/cwl8 ",
             _ => string.Empty
         };
     }

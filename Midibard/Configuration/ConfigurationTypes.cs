@@ -50,6 +50,22 @@ public enum ChatType
     Current = 0,
     Say = 1,
     Party = 2,
+    Linkshell1 = 3,
+    Linkshell2 = 4,
+    Linkshell3 = 5,
+    Linkshell4 = 6,
+    Linkshell5 = 7,
+    Linkshell6 = 8,
+    Linkshell7 = 9,
+    Linkshell8 = 10,
+    CrossLinkshell1 = 30,
+    CrossLinkshell2 = 31,
+    CrossLinkshell3 = 32,
+    CrossLinkshell4 = 33,
+    CrossLinkshell5 = 34,
+    CrossLinkshell6 = 35,
+    CrossLinkshell7 = 36,
+    CrossLinkshell8 = 37
 }
 
 public enum AntiStackType

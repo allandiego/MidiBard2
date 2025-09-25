@@ -55,15 +55,31 @@ public partial class PluginUI
         return antiStackNoteLabels;
     }
 
-    private static string[] GetPostSongNameChatTargetLabels()
+    private static string[] GetChatTargetLabels()
     {
-        string[] postSongNameChatTargetLabels = {
+        string[] chatTargetLabels = {
                 Language.chat_target_option_current,
                 Language.chat_target_option_say,
-                Language.chat_target_option_party
+                Language.chat_target_option_party,
+                Language.chat_target_option_ls1,
+                Language.chat_target_option_ls2,
+                Language.chat_target_option_ls3,
+                Language.chat_target_option_ls4,
+                Language.chat_target_option_ls5,
+                Language.chat_target_option_ls6,
+                Language.chat_target_option_ls7,
+                Language.chat_target_option_ls8,
+                Language.chat_target_option_cwl1,
+                Language.chat_target_option_cwl2,
+                Language.chat_target_option_cwl3,
+                Language.chat_target_option_cwl4,
+                Language.chat_target_option_cwl5,
+                Language.chat_target_option_cwl6,
+                Language.chat_target_option_cwl7,
+                Language.chat_target_option_cwl8
             };
 
-        return postSongNameChatTargetLabels;
+        return chatTargetLabels;
     }
 
     private void DrawPerformanceSettings()
@@ -297,7 +313,7 @@ public partial class PluginUI
             ImGui.Spacing();
 
             ImGui.TextUnformatted(Language.select_chat_to_send_song_name);
-            if (ImGuiUtil.EnumCombo($"##comboPostSongNameChatTarget", ref MidiBard.config.SongNameChatTarget, labelsOverride: GetPostSongNameChatTargetLabels()))
+            if (ImGuiUtil.EnumCombo($"##ComboPostSongNameChatTarget", ref MidiBard.config.SongNameChatTarget, labelsOverride: GetChatTargetLabels()))
             {
                 IPCHandles.SyncAllSettings();
             }

@@ -1842,6 +1842,118 @@ namespace MidiBard2.Resources
                 return ResourceManager.GetString("chat_target_option_party", resourceCulture);
             }
         }
+        internal static string chat_target_option_ls1
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls1", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_ls2
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls2", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_ls3
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls3", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_ls4
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls4", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_ls5
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls5", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_ls6
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls6", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_ls7
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls7", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_ls8
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_ls8", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl1
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl1", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl2
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl2", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl3
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl3", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl4
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl4", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl5
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl5", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl6
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl6", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl7
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl7", resourceCulture);
+            }
+        }
+        internal static string chat_target_option_cwl8
+        {
+            get
+            {
+                return ResourceManager.GetString("chat_target_option_cwl8", resourceCulture);
+            }
+        }
         internal static string theme_default
         {
             get
